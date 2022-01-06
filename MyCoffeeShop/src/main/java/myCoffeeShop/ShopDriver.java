@@ -24,6 +24,8 @@ public class ShopDriver {
 	
 	public static void main(String[] args) {
 	    CoffeeShop cs = createMenu();
+		
+	    System.out.println("Welcome to "+cs.name);
 	    
 	    //Printing all the Food items in the Menu
 	    System.out.println("Foods: " + cs.foodOnly().toString());
