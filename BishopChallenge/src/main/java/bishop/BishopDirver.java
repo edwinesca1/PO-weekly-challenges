@@ -28,6 +28,9 @@ public class BishopDirver {
 		
 		//different positions in different diagonal but more than 1 move
 		System.out.println("Bishop moved?... "+ new BishopLogic("h8","c1",4).isItPossible());
+		
+		//different color blocks
+		System.out.println("Bishop moved?... "+ new BishopLogic("f2","g4",4).isItPossible());
 	}
 
 }
